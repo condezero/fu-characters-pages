@@ -1,0 +1,126 @@
+.character-card-right-row-label {
+  font-size: 0.6em;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.5px;
+  font-family: inherit;
+}
+.character-card-right-row-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+}
+/* --- PIXEL ART CARD LAYOUT --- */
+.character-card {
+  width: 600px;
+  margin: 2em auto;
+  border: 3px solid var(--character-card-border-color, #ffcc00);
+  background: #222;
+  box-shadow: 4px 4px 0 #000;
+  color: var(--character-card-border-color, #ffcc00);
+  font-family: 'Press Start 2P', monospace;
+  image-rendering: pixelated;
+  display: flex;
+  flex-direction: column;
+}
+
+.character-card-title {
+  width: 100%;
+  background: #181818;
+  border-bottom: 2px solid var(--character-card-border-color, #ffcc00);
+  padding: 1em 0;
+  font-size: 1.1em;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.character-card-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 200px;
+}
+
+.character-card-left {
+  width: 40%;
+  border-right: 2px solid var(--character-card-border-color, #ffcc00);
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-card-center {
+  width: 20%;
+  border-right: 2px solid var(--character-card-border-color, #ffcc00);
+  display: flex;
+  flex-direction: column;
+}
+.character-card-center-row {
+  flex: 1 1 0;
+  border-bottom: 1px dashed var(--character-card-separator-color, #ffcc00);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 0;
+  text-align: center;
+}
+.character-card-center-row > span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.character-card-center-row:last-child {
+  border-bottom: none;
+}
+
+.character-card-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.character-card-right-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px dashed var(--character-card-separator-color, #ffcc00);
+  flex: 1 1 0;
+  padding: 0.5em 0;
+}
+.character-card-right-row:last-child {
+  border-bottom: none;
+}
+.character-card-right-row-0 {
+  /* Primera row: 3 columnas, pero con crisis actual centrado verticalmente */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.character-card-right-row-0 > .character-card-right-col {
+  width: 33%;
+  text-align: center;
+}
+.character-card-right-row-1, .character-card-right-row-2, .character-card-right-row-3 {
+  /* Siguientes rows: 2 columnas */
+  justify-content: space-around;
+}
+
+.character-card-right-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.character-card-right-row-1 > .character-card-right-col,
+.character-card-right-row-2 > .character-card-right-col,
+.character-card-right-row-3 > .character-card-right-col {
+  width: 45%;
+}

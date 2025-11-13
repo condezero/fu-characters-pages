@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #000;
+  background: #ffffff;
   z-index: 10;
 }
 
@@ -38,9 +38,9 @@
   font-family: 'Press Start 2P', monospace;
   color: #fff;
   font-size: 1.2em;
-  background: #181818;
-  border: 2px solid #ffcc00;
-  box-shadow: 2px 2px 0 #000;
+  background: #01473C;;
+  border: 2px solid #ffcc00; 
+  box-shadow: 2px 2px 0 #002c26;;
   padding: 1em 3em;
   border-radius: 8px;
   text-align: center;

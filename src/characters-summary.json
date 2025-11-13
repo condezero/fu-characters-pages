@@ -8,8 +8,8 @@
       ["6", "6"],
       ["10", "6"]
     ],
-    "borderColor": "#ffcc00",
-    "separatorColor": "#ffcc00"
+    "borderColor": "#9d831a",
+    "separatorColor": "#9d831a"
   },
   {
     "title": "Niro",
@@ -32,7 +32,7 @@
       ["6", "6"],
       ["11", "9"]
     ],
-    "borderColor": "#66ff66",
+    "borderColor": "#124312",
     "separatorColor": "#00cc99"
   },
   {
@@ -45,6 +45,6 @@
       ["6", "8"]
     ],
     "borderColor": "#3399ff",
-    "separatorColor": "#00e0ff"
+    "separatorColor": "#3399ff"
   }
 ]

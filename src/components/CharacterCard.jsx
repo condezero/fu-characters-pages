@@ -1,12 +1,13 @@
 import React from 'react';
+import 'rpg-awesome/css/rpg-awesome.min.css';
 import './CharacterCard.css';
 
 function CharacterCard({ title, left, rightRows, borderColor = '#ffcc00', separatorColor = '#ffcc00' }) {
   const centerRows = [
-    <span key="pv"><span role="img" aria-label="Puntos de Vida">❤️</span> PV</span>,
-    <span key="pm"><span role="img" aria-label="Puntos mágicos">✴️</span> PM</span>,
-    <span key="pi"><span role="img" aria-label="Puntos de inventario">🎒</span> PI</span>,
-    <span key="def"><span role="img" aria-label="Defensa">🛡️</span> DEF</span>
+    <span key="pv"><i className="ra ra-glass-heart"></i> PV</span>,
+    <span key="pm"><i className="ra ra-flame-symbol"></i> PM</span>,
+    <span key="pi"><i className="ra ra-cog"></i> PI</span>,
+    <span key="def"><i className="ra ra-shield"></i> DEF</span>
   ];
   return (
     <div

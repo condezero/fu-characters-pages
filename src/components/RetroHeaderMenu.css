@@ -42,3 +42,37 @@
   color: #ffcc00;
   border-color: #ffcc00;
 }
+
+.retro-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.retro-header-gem {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.12));
+}
+
+.retro-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  height: 56px;
+}
+
+.retro-header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .retro-header-gem { width: 26px; height: 26px; }
+  .retro-header { padding: 6px 8px; height: 48px; }
+}

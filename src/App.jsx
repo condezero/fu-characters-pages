@@ -12,12 +12,16 @@ function App() {
   return (
     <>
       <RetroHeaderMenu current={page} onNavigate={setPage} />
+
       {page === 'characters' ? (
         <CharactersSummary />
       ) : (
+        <>
+
         <RetroMenu onSelect={(val) => {
           if (val === 'characters') setPage('characters');
         }} />
+        </>
       )}
     </>
   );

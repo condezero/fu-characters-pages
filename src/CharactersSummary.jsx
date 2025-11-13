@@ -35,7 +35,7 @@ function CharactersSummary() {
                   <img
                     src={getAvatar(char.avatar)}
                     alt="avatar"
-                    style={{ width: '305px', height: '240px', cursor: 'pointer' }}
+                    style={{  height: '180px', cursor: 'pointer' }}
                     onClick={() => setShowGrigoryModal(true)}
                     title="Click to enlarge"
                   />

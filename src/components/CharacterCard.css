@@ -18,8 +18,8 @@
   width: 600px;
   margin: 2em auto;
   border: 3px solid var(--character-card-border-color, #ffcc00);
-  background: #ffffff;
-  box-shadow: 4px 4px 0 #b3b3b3;
+  background: #181818;
+  box-shadow: 4px 4px 0 #000;
   color: var(--character-card-border-color, #ffcc00);
   font-family: 'Press Start 2P', monospace;
   image-rendering: pixelated;
@@ -29,7 +29,7 @@
 
 .character-card-title {
   width: 100%;
-  background: #ffffff;
+  background: #181818;
   border-bottom: 2px solid var(--character-card-border-color, #ffcc00);
   padding: 1em 0;
   font-size: 1.1em;

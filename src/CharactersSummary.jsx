@@ -3,7 +3,7 @@ import ImageModal from './components/ImageModal';
 import Grigory from './assets/grigory.png';
 import React, { useState } from 'react';
 import characters from './characters-summary.json';
-import './App.css';
+import './CharactersSummary.css';
 import RetroHeaderMenu from './components/RetroHeaderMenu';
 
 function CharactersSummary() {

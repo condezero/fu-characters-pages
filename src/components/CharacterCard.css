@@ -18,7 +18,7 @@
   width: 600px;
   margin: 2em auto;
   border: 3px solid var(--character-card-border-color, #ffcc00);
-  background: #222;
+  background: #181818;
   box-shadow: 4px 4px 0 #000;
   color: var(--character-card-border-color, #ffcc00);
   font-family: 'Press Start 2P', monospace;

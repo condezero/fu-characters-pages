@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.retro-header-menu {
+  width: 100%;
+  background: #181818;
+  /* border-bottom removed */
+  box-shadow: 0 2px 0 #000;
+  padding: 0.5em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.retro-header-menu ul {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.retro-header-menu-item {
+  font-family: 'Press Start 2P', monospace;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  user-select: none;
+}
+
+.retro-header-menu-item:hover,
+.retro-header-menu-item.active {
+  background: #222;
+  color: #ffcc00;
+  border-color: #ffcc00;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Thormirr Hijo de Yggdrasil",
+    "avatar": "https://placehold.co/100x100/222/ffcc00?text=IMG",
+    "rightRows": [
+      ["65", "32", "65"],
+      ["35", "35"],
+      ["6", "6"],
+      ["10", "6"]
+    ],
+    "borderColor": "#ffcc00",
+    "separatorColor": "#ffcc00"
+  },
+  {
+    "title": "Niro",
+    "avatar": "https://placehold.co/100x100/222/cc66ff?text=IMG",
+    "rightRows": [
+      ["40", "20", "40"],
+      ["35", "35"],
+      ["8", "8"],
+      ["11", "11"]
+    ],
+    "borderColor": "#cc66ff",
+    "separatorColor": "#ff99ff"
+  },
+  {
+    "title": "Grigory",
+    "avatar": "grigory.png",
+    "rightRows": [
+      ["65", "32", "65"],
+      ["50", "50"],
+      ["6", "6"],
+      ["11", "9"]
+    ],
+    "borderColor": "#66ff66",
+    "separatorColor": "#00cc99"
+  },
+  {
+    "title": "Lethe",
+    "avatar": "https://placehold.co/100x100/222/3399ff?text=IMG",
+    "rightRows": [
+      ["45", "22", "45"],
+      ["65", "65"],
+      ["6", "6"],
+      ["6", "8"]
+    ],
+    "borderColor": "#3399ff",
+    "separatorColor": "#00e0ff"
+  }
+]

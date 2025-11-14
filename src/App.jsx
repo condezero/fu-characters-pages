@@ -1,9 +1,7 @@
-
-
-
 import React, { useState } from 'react';
 import RetroMenu from './components/RetroMenu';
-import CharactersSummary from './CharactersSummary';
+import CharactersSummary from './pages/CharactersSummary';
+import InteractiveMap from './pages/InteractiveMap';
 import RetroHeaderMenu from './components/RetroHeaderMenu';
 
 function App() {
@@ -15,13 +13,15 @@ function App() {
 
       {page === 'characters' ? (
         <CharactersSummary />
+      ) : page === 'map' ? (
+        <InteractiveMap />
       ) : (
-        <>
-
-        <RetroMenu onSelect={(val) => {
-          if (val === 'characters') setPage('characters');
-        }} />
-        </>
+        <RetroMenu
+          onSelect={(val) => {
+            if (val === 'characters') setPage('characters');
+            if (val === 'map') setPage('map');
+          }}
+        />
       )}
     </>
   );

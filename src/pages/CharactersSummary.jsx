@@ -1,10 +1,10 @@
-import CharacterCard from './components/CharacterCard';
-import ImageModal from './components/ImageModal';
-import Grigory from './assets/grigory.png';
+import CharacterCard from '../components/CharacterCard';
+import ImageModal from '../components/ImageModal';
+import Grigory from '../assets/grigory.png';
 import React, { useState } from 'react';
-import characters from './characters-summary.json';
+import characters from '../characters-summary.json';
 import './CharactersSummary.css';
-import RetroHeaderMenu from './components/RetroHeaderMenu';
+import RetroHeaderMenu from '../components/RetroHeaderMenu';
 
 function CharactersSummary() {
   const [showGrigoryModal, setShowGrigoryModal] = useState(false);

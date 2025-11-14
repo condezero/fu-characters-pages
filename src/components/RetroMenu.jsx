@@ -3,7 +3,7 @@ import './RetroMenu.css';
 import logo from '../assets/fu-logo.png';
 const menuItems = [
   { label: 'Personajes', value: 'characters' },
-  { label: 'Mapa' },
+  { label: 'Mapa', value: 'map' },  
   // Puedes añadir más opciones aquí
 ];
 

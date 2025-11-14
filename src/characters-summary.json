@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Thormirr Hijo de Yggdrasil",
     "avatar": "https://placehold.co/100x100/222/ffcc00?text=IMG",
     "rightRows": [
@@ -9,9 +10,27 @@
       ["10", "6"]
     ],
     "borderColor": "#ffcc00",
-    "separatorColor": "#ffcc00"
+    "separatorColor": "#ffcc00",
+    "stats": {
+      "dex": "D10",
+      "ins": "D6",
+      "mig": "D10",
+      "wil": "D6"
+    },
+    "info": {
+      "identidad": "Guerrero ancestral",
+      "tema": "Protector del bosque",
+      "origen": "Yggdrasil"
+    },
+    "equipment": {
+      "accessory": "Amuleto de cobre",
+      "armor": "Armadura de cuero",
+      "mainhand": "Espada corta",
+      "offhand": "Escudo de madera"
+    }
   },
   {
+    "id": 2,
     "title": "Niro",
     "avatar": "https://placehold.co/100x100/222/cc66ff?text=IMG",
     "rightRows": [
@@ -21,9 +40,27 @@
       ["11", "11"]
     ],
     "borderColor": "#cc66ff",
-    "separatorColor": "#ff99ff"
+    "separatorColor": "#ff99ff",
+    "stats": {
+      "dex": "D10",
+      "ins": "D6",
+      "mig": "D10",
+      "wil": "D6"
+    },
+    "info": {
+      "identidad": "Mago errante",
+      "tema": "Buscador de conocimiento",
+      "origen": "Islas del Viento"
+    },
+    "equipment": {
+      "accessory": "Anillo de sabiduría",
+      "armor": "Túnica mágica",
+      "mainhand": "Báculo elemental",
+      "offhand": "Libro antiguo"
+    }
   },
   {
+    "id": 3,
     "title": "Grigory",
     "avatar": "grigory.png",
     "rightRows": [
@@ -33,9 +70,27 @@
       ["11", "9"]
     ],
     "borderColor": "#66ff66",
-    "separatorColor": "#00cc99"
+    "separatorColor": "#00cc99",
+    "stats": {
+      "dex": "D10",
+      "ins": "D6",
+      "mig": "D10",
+      "wil": "D6"
+    },
+    "info": {
+      "identidad": "Mercenario",
+      "tema": "Redención",
+      "origen": "Tierras del Norte"
+    },
+    "equipment": {
+      "accessory": "Cinturón de fuerza",
+      "armor": "Armadura pesada",
+      "mainhand": "Hacha de guerra",
+      "offhand": "Daga oculta"
+    }
   },
   {
+    "id": 4,
     "title": "Lethe",
     "avatar": "https://placehold.co/100x100/222/3399ff?text=IMG",
     "rightRows": [
@@ -45,6 +100,23 @@
       ["6", "8"]
     ],
     "borderColor": "#3399ff",
-    "separatorColor": "#3399ff"
+    "separatorColor": "#3399ff",
+    "stats": {
+      "dex": "D10",
+      "ins": "D6",
+      "mig": "D10",
+      "wil": "D6"
+    },
+    "info": {
+      "identidad": "Hechicera",
+      "tema": "Misterio y destino",
+      "origen": "Aguas profundas"
+    },
+    "equipment": {
+      "accessory": "Collar de perlas",
+      "armor": "Vestido encantado",
+      "mainhand": "Vara lunar",
+      "offhand": "Orbe de agua"
+    }
   }
 ]

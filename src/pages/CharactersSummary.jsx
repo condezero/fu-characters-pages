@@ -1,13 +1,16 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import CharacterCard from '../components/CharacterCard';
 import ImageModal from '../components/ImageModal';
+import CharacterDetail from './CharacterDetail';
 import Grigory from '../assets/grigory.png';
-import React, { useState } from 'react';
 import characters from '../characters-summary.json';
 import './CharactersSummary.css';
 import RetroHeaderMenu from '../components/RetroHeaderMenu';
 
 function CharactersSummary() {
   const [showGrigoryModal, setShowGrigoryModal] = useState(false);
+  const navigate = useNavigate();
 
   // Helper to resolve avatar src
   const getAvatar = (avatar) => {
@@ -29,7 +32,7 @@ function CharactersSummary() {
           {characters.map((char) => (
             <CharacterCard
               key={char.title}
-              title={char.title}
+              title={<span style={{cursor:'pointer',textDecoration:'underline'}} onClick={() => navigate(`/character/${char.id}`)}>{char.title}</span>}
               left={
                 char.title === 'Grigory' ? (
                   <img
@@ -61,6 +64,7 @@ function CharactersSummary() {
             onClose={() => setShowGrigoryModal(false)}
           />
         )}
+        {/* Modal y zoom deshabilitados, ahora se abre una nueva pestaña con la info */}
       </main>
     </>
   );

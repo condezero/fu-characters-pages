@@ -27,7 +27,8 @@
       "armor": "Armadura de cuero",
       "mainhand": "Espada corta",
       "offhand": "Escudo de madera"
-    }
+    },
+    "skills": ["Espada", "Defensa", "Liderazgo", "Sigilo"]
   },
   {
     "id": 2,
@@ -48,16 +49,17 @@
       "wil": "D6"
     },
     "info": {
-      "identidad": "Mago errante",
-      "tema": "Buscador de conocimiento",
-      "origen": "Islas del Viento"
+      "identidad": "Caminante de Ascalon",
+      "tema": "Esperanza",
+      "origen": "Potos"
     },
     "equipment": {
-      "accessory": "Anillo de sabiduría",
-      "armor": "Túnica mágica",
-      "mainhand": "Báculo elemental",
-      "offhand": "Libro antiguo"
-    }
+      "accessory": "",
+      "armor": "Túnica de combate",
+      "mainhand": "Arco corto",
+      "offhand": ""
+    },
+    "skills": ["Maestria ataque a distancia(1)", "Hawkeye(1)", "Crossfire(1)", "Barrage(1)", "Well traveled(1)", "Resourcefull(1)"]
   },
   {
     "id": 3,
@@ -78,16 +80,17 @@
       "wil": "D6"
     },
     "info": {
-      "identidad": "Mercenario",
-      "tema": "Redención",
-      "origen": "Tierras del Norte"
+      "identidad": "Heroe caido, olvidado y retornado",
+      "tema": "Venganza",
+      "origen": "Desconocido"
     },
     "equipment": {
-      "accessory": "Cinturón de fuerza",
-      "armor": "Armadura pesada",
+      "accessory": "",
+      "armor": "Rune Plate",
       "mainhand": "Hacha de guerra",
-      "offhand": "Daga oculta"
-    }
+      "offhand": "Hacha de guerra"
+    },
+    "skills": ["Shadow Strike (1)", "Heart of Darkens", "Agony(1)", "Magia entropia (1): Aceleracion", "Bladestorm", "Maestria con armas (1)"]
   },
   {
     "id": 4,
@@ -108,15 +111,47 @@
       "wil": "D6"
     },
     "info": {
-      "identidad": "Hechicera",
-      "tema": "Misterio y destino",
-      "origen": "Aguas profundas"
+      "identidad": "Navegante de la red de almas",
+      "tema": "Busqueda",
+      "origen": "La red de almas"
     },
     "equipment": {
-      "accessory": "Collar de perlas",
-      "armor": "Vestido encantado",
-      "mainhand": "Vara lunar",
-      "offhand": "Orbe de agua"
-    }
+      "accessory": "",
+      "armor": "",
+      "mainhand": "",
+      "offhand": ""
+    },
+    "skills": ["Blind summon: grimorie", "Symbol(2): Growth, Protection", "Mirage(1)", "Navigator(1)"]
+  },
+  {
+    "id": 5,
+    "title": "Kali Risk",
+    "avatar": "https://placehold.co/100x100/222/ff0066?text=IMG",
+    "rightRows": [
+      ["45", "22", "45"],
+      ["55", "55"],
+      ["10", "10"],
+      ["8", "9"]
+    ],
+    "borderColor": "#ff0066",
+    "separatorColor": "#ff3399",
+    "stats": {
+      "dex": "D6",
+      "ins": "D10",
+      "mig": "D8",
+      "wil": "D8"
+    },
+    "info": {
+      "identidad": "Excentrico inventor genetista",
+      "tema": "Reconocimiento",
+      "origen": "Tecnocracia de Nilus"
+    },
+    "equipment": {
+      "accessory": "",
+      "armor": "Ropa de Viaje",
+      "mainhand": "Tomo",
+      "offhand": "Tomo"
+    },
+    "skills": ["Gadgets: infusion(1)" , "lluvia de pociones(2)", "Simbolos mágicos(1)", "Sanar(1)"]
   }
 ]

@@ -1,9 +1,9 @@
 import React from 'react';
-import './StatCard.css';
+import './SkillsCard.css';
 
 export default function SkillsCard({ skills, borderColor = '#ffcc00', separatorColor = '#ffcc00' }) {
-  // Limita a 3 filas
-  const rows = (skills && skills.length > 0 ? skills : ['Espada', 'Defensa', 'Liderazgo', 'Sigilo']).slice(0, 3);
+  // Usa el array skills del JSON, muestra todos los valores si existen, si no muestra el default
+  const rows = (skills && Array.isArray(skills) && skills.length > 0 ? skills : ['Espada', 'Defensa', 'Liderazgo', 'Sigilo']);
 
   return (
     <div className="stat-card skills-card" style={{fontSize:'0.8em', '--character-card-border-color': borderColor, '--character-card-separator-color': separatorColor}}>

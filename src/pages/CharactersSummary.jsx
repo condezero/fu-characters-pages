@@ -18,10 +18,12 @@ function CharactersSummary() {
     return avatar;
   };
 
+    // Fondo original
+
   return (
     <>
       {/* RetroHeaderMenu se renderiza desde App.jsx, no aquí */}
-      <main className="page-container">
+        <main className="page-container" style={{ minHeight: '100vh' }}>
         <h1 className="page-title">
           La caida de Ascalon
         </h1>

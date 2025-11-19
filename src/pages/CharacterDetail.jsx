@@ -25,19 +25,15 @@ export default function CharacterDetail({ character }) {
                     <StatCard stats={character.stats} borderColor={character.borderColor} separatorColor={character.separatorColor} />
                 </div>
             </div>
-            <div className="character-detail-container">
-                <div className="character-detail-row">
-                    <div className="character-detail-col character-detail-col-1">
-                        <InfoCard info={character.info} borderColor={character.borderColor} separatorColor={character.separatorColor} />
-                    </div>
-                    <div className="character-detail-col character-detail-col-2-3">
-                        <Equipment equipment={character.equipment} />
-                    </div>
-                </div>
-            </div>
             <div className="character-detail-row">
-                <div className="character-detail-col">
-                    <SkillsCard skills={character.skills} />
+                <div className="character-detail-col" style={{width:'33.33%'}}>
+                    <InfoCard info={character.info} borderColor={character.borderColor} separatorColor={character.separatorColor} />
+                </div>
+                <div className="character-detail-col" style={{width:'33.33%'}}>
+                    <Equipment equipment={character.equipment} borderColor={character.borderColor} separatorColor={character.separatorColor} />
+                </div>
+                <div className="character-detail-col" style={{width:'33.33%'}}>
+                    <SkillsCard skills={character.skills} borderColor={character.borderColor} separatorColor={character.separatorColor} />
                 </div>
             </div>
         </div>

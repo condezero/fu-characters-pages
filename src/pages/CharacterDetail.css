@@ -1,12 +1,13 @@
-.character-detail-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  padding: 2em;
+  .character-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em;
+    box-sizing: border-box;
 }
 .character-detail-row {
   display: flex;
-  gap: 2em;
+    gap: 1em;
 }
 .character-detail-col {
   flex: 1;
@@ -20,7 +21,7 @@
 @media (max-width: 800px) {
   .character-detail-row {
     flex-direction: column;
-    gap: 1em;
+      gap: 0.5em;
   }
   .character-detail-col-2-3 {
     flex: 1;

@@ -1,0 +1,25 @@
+.skills-card {
+  width: 378px !important;
+  min-height: 286px !important;
+  max-width: 378px !important;
+  min-width: 378px !important;
+}
+.skills-card .stat-card-header {
+  text-align: center;
+}
+.skills-card .stat-card-header .stat-card-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 0.5em;
+  font-size: inherit;
+  font-weight: normal;
+}
+.skills-card .stat-card-row .stat-card-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 0.5em;
+}
